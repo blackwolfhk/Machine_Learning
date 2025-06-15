@@ -6,9 +6,9 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return """
-    <h1>🎉 My Awesome ML App!</h1>
-    <p>I just updated this through GitHub!</p>
-    <p>CI/CD automatically deployed my changes!</p>
+    <h1>🎉 Automatic CI/CD is Working!</h1>
+    <p>I just pushed this to GitHub and Jenkins auto-deployed it!</p>
+    <p>No manual clicking needed!</p>
     """
 
 @app.route('/health')
