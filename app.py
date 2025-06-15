@@ -1,20 +1,15 @@
 from flask import Flask
-import os
 
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
+def home():
     return """
     <h1>🎉 Automatic CI/CD is Working!</h1>
     <p>I just pushed this to GitHub and Jenkins auto-deployed it!</p>
     <p>No manual clicking needed!</p>
-    <p>Math test: 2 + 2 = {{ 2 + 2 }}</p>  # This will break!
     """
-
-@app.route('/health')
-def health():
-    return {'status': 'healthy', 'message': 'App is running!'}
+    # Missing closing quote will break Python syntax
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8000
