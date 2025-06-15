@@ -196,7 +196,7 @@ GET  /debug/{symbol}  # Development debugging
 ```
 
 ## **Request/Response Formats**
-```json
+```
 // Prediction Request
 {
   "symbol": "AAPL"
