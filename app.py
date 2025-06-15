@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '''
-    <h1>🚀 Machine Learning App Deployed!</h1>
-    <p>Your CI/CD pipeline is working correctly!</p>
-    <p>Jenkins successfully deployed this app to EC2.</p>
-    '''
+    return """
+    <h1>🎉 My Awesome ML App!</h1>
+    <p>I just updated this through GitHub!</p>
+    <p>CI/CD automatically deployed my changes!</p>
+    """
 
 @app.route('/health')
 def health():
