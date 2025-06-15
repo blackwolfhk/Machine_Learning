@@ -3,6 +3,11 @@
 ## 🚀 **Project Overview**
 A production-ready **Machine Learning Stock Price Prediction System** with full CI/CD pipeline, containerization, and intelligent data fallbacks. Built with modern DevOps practices and enterprise-grade reliability.
 
+![Application Interface](images/Searching_Page.png)
+
+![Application Interface](images/AAPL_Stock_Prediction.png)
+*Real-time ML-powered stock predictions with interactive charts*
+
 ---
 
 # 🛠️ **Technology Stack**
@@ -83,6 +88,15 @@ ml-stock-predictor/
 ---
 
 # 🔄 **CI/CD Pipeline (Jenkins)**
+
+![Application Interface](images/Jenkins_1.png)
+*Jenkins Status*
+
+![Application Interface](images/Jenkins_build_output_1.png)
+![Application Interface](images/Jenkins_build_output_2.png)
+![Application Interface](images/Jenkins_build_output_3.png)
+*Jenkins Console Output*
+
 
 ## **Pipeline Stages**
 
